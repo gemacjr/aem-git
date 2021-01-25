@@ -1,5 +1,37 @@
 # Created by https://www.gitignore.io/api/eclipse,java,maven
 
+aopalliance/
+backport-util-concurrent/
+biz/
+ch/
+classworlds/
+com/
+commons-beanutils/
+commons-cli/
+commons-codec/
+commons-collections/
+commons-httpclient/
+commons-io/
+commons-lang/
+commons-logging/
+dom4j/
+io/
+javax/
+jaxen/
+joda-time/
+junit-addons/
+junit/
+log4j/
+net/
+org/
+oro/
+stax/
+uk/
+xerces/
+xml-apis/
+xmlpull/
+xpp3/
+
 ### Eclipse ###
 *.pydevproject
 .metadata
