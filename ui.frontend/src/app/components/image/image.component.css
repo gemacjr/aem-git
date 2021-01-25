@@ -1,0 +1,12 @@
+:host-context {
+    display: block;
+}
+
+.image {
+    
+    padding-left: 200px;
+    padding-bottom: 200px;
+    margin: 1rem 0;
+    width: 50%;
+    border: 0;
+}

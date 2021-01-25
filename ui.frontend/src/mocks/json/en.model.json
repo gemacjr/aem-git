@@ -1,0 +1,101 @@
+{
+    "templateName": "spa-app-template",
+    "designPath": "/libs/settings/wcm/designs/default",
+    "language": "en",
+    "title": "en",
+    "cssClassNames": "spa page basicpage",
+    ":type": "pd-nextgen-aem/components/spa",
+    ":items": {},
+    ":itemsOrder": [],
+    ":hierarchyType": "page",
+    ":children": {
+        "/content/pd-nextgen-aem/us/en/home": {
+            "templateName": "spa-page-template",
+            "designPath": "/libs/settings/wcm/designs/default",
+            "lastModifiedDate": 1538639429650,
+            "language": "en",
+            "title": "PD NextGen AEM Home Page",
+            "cssClassNames": "spa page basicpage",
+            ":type": "pd-nextgen-aem/components/page",
+            ":items": {
+                "root": {
+                    "columnCount": 12,
+                    "columnClassNames": {
+                        "responsivegrid": "aem-GridColumn aem-GridColumn--default--12"
+                    },
+                    "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+                    "allowedComponents": {
+                        "components": [
+                            {
+                                "path": "/conf/pd-nextgen-aem/settings/wcm/templates/spa-page-template/structure/jcr:content/root/wcm/foundation/components/responsivegrid",
+                                "title": "Layout Container"
+                            },
+                            {
+                                "path": "/conf/pd-nextgen-aem/settings/wcm/templates/spa-page-template/structure/jcr:content/root/pd-nextgen-aem/components/text",
+                                "title": "Text"
+                            }
+                        ],
+                        "applicable": false
+                    },
+                    ":items": {
+                        "responsivegrid": {
+                            "columnCount": 12,
+                            "columnClassNames": {
+                                "text": "aem-GridColumn aem-GridColumn--default--12"
+                            },
+                            "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+                            "allowedComponents": {
+                                "components": [
+                                    {
+                                        "path": "/content/pd-nextgen-aem/us/en/home/jcr:content/root/responsivegrid/wcm/foundation/components/responsivegrid",
+                                        "title": "Layout Container"
+                                    },
+                                    {
+                                        "path": "/content/pd-nextgen-aem/us/en/home/jcr:content/root/responsivegrid/pd-nextgen-aem/components/text",
+                                        "title": "Text"
+                                    }
+                                ],
+                                "applicable": false
+                            },
+                            ":items": {
+                                "text": {
+                                    "id": "text-00adc0d0e0",
+                                    "text": "<h2>An AEM Text Component</h2>",
+                                    "richText": true,
+                                    ":type": "pd-nextgen-aem/components/text",
+                                    "dataLayer": {
+                                        "text-00adc0d0e0": {
+                                            "@type": "pd-nextgen-aem/components/text",
+                                            "xdm:text": "\u003Cp\u003EHello World!\u003C/p\u003E"
+                                        }
+                                    }
+                                },
+                                "image": {
+                                    "alt": "Bandaids",
+                                    "title": "Bandaids",
+                                    "src": "/mocks/images/pharmacy.jpg",
+                                    ":type": "pd-nextgen-aem/components/image"
+                                }
+                            },
+                            ":itemsOrder": [
+                                "text"
+                                
+                            ],
+                            ":type": "wcm/foundation/components/responsivegrid"
+                        }
+                    },
+                    ":itemsOrder": [
+                        "responsivegrid"
+                    ],
+                    ":type": "wcm/foundation/components/responsivegrid"
+                }
+            },
+            ":itemsOrder": [
+                "root"
+            ],
+            ":hierarchyType": "page",
+            ":path": "/content/pd-nextgen-aem/us/en/home"
+        }
+    },
+    ":path": "/content/pd-nextgen-aem/us/en"
+}

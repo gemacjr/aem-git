@@ -26,10 +26,20 @@
               "src/logo512.png",
               "src/manifest.json"
             ],
-            "styles": ["src/styles.css"],
+            "styles": ["src/styles.css","src/assets/styles/themes/bootstrap.cardinal.css"],
             "scripts": []
           },
           "configurations": {
+            "dev": {
+              "assets": [
+                "src/mocks",
+                "src/assets",
+                "src/favicon.ico",
+                "src/logo192.png",
+                "src/logo512.png",
+                "src/manifest.json"
+              ]
+        },
             "production": {
               "fileReplacements": [
                 {
@@ -64,7 +74,7 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "angular-app:build"
+            "browserTarget": "angular-app:build:dev"
           },
           "configurations": {
             "production": {
